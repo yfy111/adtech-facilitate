@@ -17,7 +17,7 @@ public class AdtechFacilitateGatewayApplication {
         return builder.routes()
                 .route("path_route", r -> r.path("/user/**")
                         .uri("http://localhost:8765"))
-                .route("host_route", r -> r.host("/dictionaries/**")
+                .route("host_route", r -> r.path("/dictionaries/**")
                         .uri("http://localhost:8766"))
                 .build();
     }
