@@ -1,4 +1,4 @@
-/*
+package com.adtech.util;/*
 package com.adtech.util;
 
 import cn.com.adtech.annotation.DesensitizationProperty;
